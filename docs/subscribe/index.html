@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>Woodstock (prototype)</title>
+    <meta name="description" content="Woodstock prototype. Demo with made-up numbers. Not a real service." />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#F2F2F7" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Woodstock" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="manifest" href="/woodstock/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/woodstock/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/woodstock/icons/icon-192.png" />
+    <style id="expo-reset">
+      html, body { height: 100%; margin: 0; }
+      body { overflow: hidden; overscroll-behavior: none; background: #F2F2F7; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+      html[data-theme="dark"] body { background: #000000; }
+      /* Founder 08:44: iOS dims and blurs whatever sits under the status bar in a home-screen app. A solid strip in the
+         screen's own background colour (set by useThemeColor via --ws-top) leaves it nothing to fade. */
+      body::before { content: ""; position: fixed; top: 0; left: 0; right: 0; height: env(safe-area-inset-top, 0px);
+        background: var(--ws-top, #F2F2F7); z-index: 2147483647; pointer-events: none; }
+      html[data-theme="dark"] body::before { background: var(--ws-top, #000000); }
+      input, textarea { -webkit-user-select: text; user-select: text; }
+      #root { display: flex; height: 100%; flex: 1; }
+      :focus-visible { outline: 2px solid #1F5E4B; outline-offset: 2px; }
+      /* Desktop preview: show the app at iPhone size, as the prototype does */
+      @media (min-width: 600px) and (min-height: 700px) {
+        body { display: grid; place-items: center; background: #E3E4E8; }
+        html[data-theme="dark"] body { background: #141416; }
+        #root { flex: none; width: 390px; height: 844px; border-radius: 44px; overflow: hidden; transform: translateZ(0);
+          box-shadow: 0 0 0 1px rgba(0,0,0,0.06), 0 30px 80px rgba(0,0,0,0.18); }
+      }
+    </style>
+    <script>
+      try { var m = localStorage.getItem("ws.v1.theme"); m = m ? JSON.parse(m) : "light";
+        var d = m === "dark" || (m === "auto" && matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.setAttribute("data-theme", d ? "dark" : "light"); } catch (e) {}
+    </script>
+  <meta name="theme-color" content="#F2F2F7">
+<meta name="description" content="Woodstock prototype. Demo with made-up numbers. Not a real service.">
+<link rel="icon" href="/woodstock/favicon.ico"/></head>
+  <body>
+    <noscript>Woodstock needs JavaScript to run.</noscript>
+    <div id="root"></div>
+  <script src="/woodstock/_expo/static/js/web/__expo-metro-runtime-8c088df87a31e4e6accd81c554ec290d.js" defer></script><script src="/woodstock/_expo/static/js/web/__common-c4bac1d1ccb18a541d9594cffd67869e.js" defer></script><script src="/woodstock/_expo/static/js/web/entry-5a19030570ef967008c698758cf8e131.js" defer></script>
+</body>
+</html>
