@@ -1,9 +1,0 @@
-{
-  "name": "@woodstock/talk-engine",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Woodstock conversations: Talk it through, the goals interview, Ask about these portfolios and Build it with me. Pure TypeScript: intent parsing, raise and date parsing, scripted answers, confirm-card validation and guardrails. No React, no DOM, no storage. Figures come from @woodstock/engine. Owner: Engineer 3.",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
-  "type": "module"
-}
