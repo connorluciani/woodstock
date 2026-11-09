@@ -21,6 +21,11 @@
       body { overflow: hidden; overscroll-behavior: none; background: #F2F2F7; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%;
         -webkit-tap-highlight-color: transparent; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
       html[data-theme="dark"] body { background: #000000; }
+      /* Founder 08:44: iOS dims and blurs whatever sits under the status bar in a home-screen app. A solid strip in the
+         screen's own background colour (set by useThemeColor via --ws-top) leaves it nothing to fade. */
+      body::before { content: ""; position: fixed; top: 0; left: 0; right: 0; height: env(safe-area-inset-top, 0px);
+        background: var(--ws-top, #F2F2F7); z-index: 2147483647; pointer-events: none; }
+      html[data-theme="dark"] body::before { background: var(--ws-top, #000000); }
       input, textarea { -webkit-user-select: text; user-select: text; }
       #root { display: flex; height: 100%; flex: 1; }
       :focus-visible { outline: 2px solid #1F5E4B; outline-offset: 2px; }
@@ -43,6 +48,6 @@
   <body>
     <noscript>Woodstock needs JavaScript to run.</noscript>
     <div id="root"></div>
-  <script src="/woodstock/_expo/static/js/web/__expo-metro-runtime-8c088df87a31e4e6accd81c554ec290d.js" defer></script><script src="/woodstock/_expo/static/js/web/__common-5eb4563c87ecee5aceec2f006e3ece72.js" defer></script><script src="/woodstock/_expo/static/js/web/entry-c66cdd106e4f36946076d2c76f6efdc0.js" defer></script>
+  <script src="/woodstock/_expo/static/js/web/__expo-metro-runtime-8c088df87a31e4e6accd81c554ec290d.js" defer></script><script src="/woodstock/_expo/static/js/web/__common-e9790870a65f522e5142b16bc5fb4ac3.js" defer></script><script src="/woodstock/_expo/static/js/web/entry-29f9e5097450926a503fe0580afba6b9.js" defer></script>
 </body>
 </html>
