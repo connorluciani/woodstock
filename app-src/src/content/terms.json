@@ -1,0 +1,87 @@
+{
+ "banner": "Demo terms, not a real agreement.",
+ "version": "Version: demo draft, Nov 9, 2026.",
+ "sections": [
+  {
+   "id": "what",
+   "h": "What Woodstock is",
+   "p": "Woodstock is a planning and order-preparation app. It is not a registered adviser or dealer, and it does not give personal investment advice. The people and companies in this demo, including planners and bank profiles, are made up unless named as real institutions."
+  },
+  {
+   "id": "incharge",
+   "h": "You’re in charge",
+   "p": "Nothing moves, and nothing is bought or sold, until you approve it, every time. Woodstock prepares orders that follow your own plan and target, and nothing is sent until you approve it, with Face ID, and confirm it in Questrade. Woodstock never trades without your approval."
+  },
+  {
+   "id": "accounts",
+   "h": "Your accounts",
+   "p": "Your investments are held in your own accounts at Questrade Inc., a member of the Canadian Investment Regulatory Organization (CIRO), protected by the Canadian Investor Protection Fund (CIPF) within its limits. Woodstock never holds your money. Woodstock reads your bank and card accounts; in this demo, payday transfers you approve are simulated, and in the real app they would run only through an arrangement you set up with your bank or Questrade."
+  },
+  {
+   "id": "estimates",
+   "h": "Estimates",
+   "p": "Plans, \"on track\" statuses, left-to-spend amounts, refunds and take-home pay are estimates from the numbers you give or connect. They are not guarantees. Tax figures use 2026 federal and Ontario rates and are before workplace deductions; your tax return and pay stub are the real numbers. Goal dates assume you keep adding the amount shown each payday. When you give your pay before tax during setup, take-home is estimated at about 72% of it. Spending this month adds what is recorded so far to what a typical rest of the month would add. Money kept as cash or in a savings fund is projected with no interest or returns. Investment prices are approximate, and gain is value minus what you paid."
+  },
+  {
+   "id": "illustrations",
+   "h": "Illustrations",
+   "p": "Ranges, typical years, rough years and retirement figures are illustrations, not promises. Average returns come from the FP Canada and Institute of Financial Planning 2026 Projection Assumption Guidelines (short-term 2.4%, fixed income 3.2%, Canadian equities 6.3%, U.S. equities 6.4%, international developed 6.6%, emerging 7.5%, inflation 2.1%), blended by each portfolio's mix, less fund fees. Swings use each portfolio's published range. The guidelines are meant for long-term planning; using them for shorter periods is Woodstock's own method. Retirement figures are in today's dollars, assume about 25 years of withdrawals, and leave out CPP, OAS and workplace pensions. Returns can be lower, and some years fall outside any range shown. Past results don't predict future results."
+  },
+  {
+   "id": "portfolios",
+   "h": "Portfolios and holding periods",
+   "p": "The four portfolios are general information, the same for everyone, and not a recommendation for you. You choose; Woodstock doesn’t. Holding periods (\"generally meant for money you won’t need for at least ...\") are Woodstock’s general guide, based on how much each portfolio can swing; the time bands come from the Ontario Securities Commission (GetSmarterAboutMoney.ca). They are not advice about your situation. You can change your portfolio any time in Money; nothing is bought or sold until you approve it."
+  },
+  {
+   "id": "own",
+   "h": "Build my own",
+   "p": "If you build your own mix, you choose every holding; Woodstock doesn’t review or recommend investments, and its fund list is a sample, not a selection. A single company’s stock can rise or fall much more than a fund. U.S.-listed holdings are bought in U.S. dollars, and Questrade converts at a fee."
+  },
+  {
+   "id": "shortterm",
+   "h": "Where short-term money is kept",
+   "p": "Short-term goals start in a savings fund (a high-interest savings ETF). Woodstock sets this starting choice, the same for every short-term goal and everyone; it isn't a recommendation for you. Savings funds, money market funds and bond funds are not covered by CDIC and can lose value. GICs are usually covered by CDIC within its limits. You can change where any goal is kept at any time. A savings fund’s price moves very little and its interest can change. Nothing is bought until you approve it, and you can choose uninvested cash instead."
+  },
+  {
+   "id": "nonreg",
+   "h": "Non-registered accounts and swap-based funds",
+   "p": "In a non-registered account, each portfolio uses swap-based funds (Global X Corporate Class ETFs: HXS, HXT, HXDM, HBB and HSAV) in place of the registered funds, with the same weights, the same for everyone. Swap-based funds rely on a contract with a bank, and their tax treatment depends on rules that can change. These funds get the market's return from a swap, a contract with a bank (for HXDM, National Bank of Canada), and hold cash as collateral. If the bank couldn't pay, the fund could lose value. Because the fund is a class of a corporation, it may still pay some taxable distributions, and tax rules for these funds have changed before. HXT follows the S&P/TSX 60, not the broader index XIC follows; HXDM follows a futures-roll version of its index. Fund fees plus trading costs are shown on each fund's page (HXS: MER 0.11%, trading costs 0.46%, as of Aug 21, 2026)."
+  },
+  {
+   "id": "talk",
+   "h": "Talk it through and the portfolio chat",
+   "p": "These are automated, not people, and hold no planning or advising title. They plan with your numbers and explain; they can't pick investments, file taxes or give legal advice. Answers can be wrong; check anything important with a professional."
+  },
+  {
+   "id": "planners",
+   "h": "Planners",
+   "p": "Planner calls are with people who hold the CFP or QAFP credential and cover financial planning only, not investment selection. In this demo, planners are examples and no booking is made. Prices shown are illustrative and paid to the planner."
+  },
+  {
+   "id": "paid",
+   "h": "How Woodstock is paid",
+   "p": "Woodstock is paid only by your subscription. It receives no payment from Questrade, from any fund company (including Vanguard, iShares, BMO and Global X), or per trade or per account."
+  },
+  {
+   "id": "subscription",
+   "h": "Subscription",
+   "p": "Free for your first 30 days. After that, $15 a month plus tax ($16.95 in Ontario), billed through your Apple account monthly until you cancel. You can cancel any time in your iPhone's Settings, under your Apple ID, Subscriptions; Woodstock's Settings has a link there. Cancel at least a day before the free month ends and you pay nothing. Apple's terms apply to the payment. In this demo, nothing is charged."
+  },
+  {
+   "id": "privacy",
+   "h": "Privacy",
+   "p": "Woodstock reads balances, transactions and holdings from accounts you connect, to build and track your plan. Your birthday is used only for age rules. In this demo, passwords and your birthday are never saved, and nothing is sent anywhere. This demo stores what you enter only on this device. The full privacy policy comes at launch."
+  },
+  {
+   "id": "demo",
+   "h": "Demo mode",
+   "p": "This is a demonstration. Data is sample data, approvals and transfers are simulated, and nothing is sent to Questrade, any bank, Apple or a card network. Labels marked \"(demo)\" show simulated events."
+  },
+  {
+   "id": "contact",
+   "h": "Contact and version",
+   "p": "The supplier name, address and contact details are shown here at launch."
+  }
+ ],
+ "compliancePending": "PM-R63 wording applied by mobile-lead; Compliance to confirm."
+}
