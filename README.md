@@ -1,7 +1,5 @@
-# Woodstock (prototype)
+# Woodstock
 
-Woodstock prototype. Not a real service. Nothing is offered, sold, sent or charged. For feedback from invited testers only.
+The legacy online web demo has been retired. Its published application files have been removed from this repository.
 
-This is not a financial service and gives no investment advice. Woodstock has no affiliation with Questrade, RBC, TD, Scotiabank, BMO, CIBC, Apple, Google, Microsoft, Anthropic, Global X, Vanguard, iShares or any other company named in it; their names are used for illustration only. All figures, people and accounts are made up.
-
-Copyright Project Woodstock. All rights reserved.
+Woodstock development continues in the private native app repository. This repository does not host a supported web version.
